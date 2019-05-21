@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "javaType": "com.test",
+    "properties": {
+        "id":{
+            "type": "string"
+        },
+        "label": {
+            "type": "string"
+        },
+        "position": {
+            "type": "string"
+        },
+        "isDefault": {
+            "type": "string"
+        },
+         "value": {
+            "type": "string"
+        }
+    }
+}

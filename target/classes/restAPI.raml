@@ -1,0 +1,17 @@
+#RAML 0.8
+
+title: "Test Rest.."
+baseUri: "publish url..."
+
+schemas: 
+  - Employee :!include../schemas/Employee.json
+/AddEmployee:
+ post
+     description: | Testing Add employee 
+     headers: 
+     body: 
+        application/json:
+            schemas:Employee
+     responses: 
+        '400':
+            headers:
